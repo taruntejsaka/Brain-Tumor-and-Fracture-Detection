@@ -37,3 +37,4 @@ def detect_fractures(model, image_path, confidence_threshold=0.30):
     # Annotate the image with the results
     annotated_image = results[0].plot()
     return annotated_image
+

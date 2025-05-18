@@ -1,10 +1,11 @@
 from ultralytics import YOLO
 
 # Path to your data.yaml file
-data_yaml_path = "/Users/sirisipallinarendra/Desktop/main.py/BONE CANCER SEGMENTATION.v1i.yolov11/data.yaml"
+data_yaml_path = "/Users/Bablu1/Downloads/bone facture and  tumer detection/BONE CANCER SEGMENTATION.v1i.yolov11/data.yaml"
 
 # Load a pre-trained YOLOv11 model (or start from scratch)
-model = YOLO("yolov11n.pt")  # You can use other variants like yolov11s, yolov11m, etc.
+model = YOLO("yolov8n.pt")  # or yolov8s.pt, yolov8m.pt, etc.
+ # You can use other variants like yolov11s, yolov11m, etc.
 
 # Train the model
 results = model.train(
